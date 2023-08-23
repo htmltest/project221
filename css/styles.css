@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {outline:none; box-sizing:border-box}
+
+html {min-width:375px; height:100%}
+
+body {min-width:375px; height:100%; margin:0; padding:0; font:18px/26px Arial, sans-serif; color:#FFFFFF; background:#080825; -webkit-text-size-adjust:100%; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; overflow-anchor:none}
+
+.wrapper {display:flex; flex-direction:column; align-items:center; justify-content:center; width:100%; min-width:375px; min-height:100%; position:relative; overflow:hidden; background:url(../images/bg.svg) no-repeat center; background-size:cover}
+.logo {width:878px; height:177px; background:url(../images/logo.svg) no-repeat}
+
+@media (max-width:1259px) {
+    .wrapper {background-image:url(../images/bg-mobile.svg)}
+    .logo {width:299px; height:96px; background:url(../images/logo-mobile.svg) no-repeat}
+}
